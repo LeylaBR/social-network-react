@@ -1,0 +1,37 @@
+.post h3 {
+  font-size: 26px;
+  color: orangered;
+  text-align: center;
+}
+
+.newPost {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.postInput {
+  position: relative;
+  padding: 7px;
+  width: 692px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: none;
+  display: flex;
+  flex-direction: column;
+}
+
+.inputForPost {
+  width: 100%;
+}
+
+.postList {
+  color: forestgreen;
+  font-size: 27px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.postList div {
+  margin-bottom: 17px;
+}

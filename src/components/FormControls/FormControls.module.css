@@ -1,0 +1,14 @@
+.error {
+  position: absolute;
+  padding: 7px 7px;
+  background: #f2705b;
+  border-radius: 12px;
+  font-size: 18px;
+  font-weight: bold;
+  width: 191px;
+  text-align: center;
+}
+
+.inputError {
+  border: 3px solid red;
+}

@@ -1,0 +1,74 @@
+.list {
+  width: 72%;
+  margin-left: 20px;
+  border: 2px solid orangered;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  padding: 10px;
+  position: relative;
+}
+
+.block {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.avatar {
+  width: 50px;
+  border-radius: 50%;
+  margin-right: 25px;
+}
+
+.text {
+  font-size: 24px;
+  color: green;
+}
+
+.likeBlock {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 6%;
+  padding: 9px 10px;
+  transition: 0.4s;
+}
+
+.likeBlock:hover {
+  background-color: rgba(255, 215, 0, 0.2);
+  border-radius: 19px;
+  cursor: pointer;
+}
+
+.likeImg {
+  width: 26px;
+  height: 23px;
+}
+
+.likeCount {
+  color: green;
+  font-weight: bold;
+}
+
+.delete {
+  position: absolute;
+  top: 13px;
+  right: 17px;
+  width: 35px;
+  height: 35px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  transition: 0.4s;
+}
+
+.deletes:hover {
+  background-color: rgba(255, 215, 0, 0.2);
+  border-radius: 10px;
+}
+
+.delete img {
+  width: 26px;
+  height: 23px;
+}

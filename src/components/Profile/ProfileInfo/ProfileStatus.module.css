@@ -1,0 +1,47 @@
+.status {
+  display: flex;
+  align-items: center;
+  min-height: 50px;
+}
+
+.about {
+  font-weight: bold;
+}
+
+.statusInput {
+  width: 60%;
+}
+
+.statusInput input {
+  margin-bottom: 0;
+  padding: 8px;
+  border-radius: 5px;
+  height: 22px;
+  font-size: 18px;
+  width: 100%;
+}
+
+.statusText {
+  margin-bottom: 0;
+  padding: 8px;
+  border-radius: 5px;
+  border: 2px solid transparent;
+  font-size: 18px;
+  height: 22px;
+  transition: 0.2s;
+}
+
+.statusText:hover {
+  background-color: rgba(255, 215, 0, 0.2);
+  border-radius: 5px;
+  cursor: pointer;
+  width: 60%;
+}
+
+.statusUser {
+  margin-left: 5px;
+}
+
+.setStatus {
+  opacity: 0.5;
+}

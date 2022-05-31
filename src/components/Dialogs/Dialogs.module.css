@@ -1,0 +1,52 @@
+.title {
+  margin: 0;
+  text-transform: uppercase;
+  color: navy;
+  margin-bottom: 10px;
+}
+
+.info {
+  display: grid;
+  grid-template-columns: 25% 75%;
+  grid-gap: 5px;
+}
+
+.list {
+  font-size: 20px;
+  padding: 20px 0 0 20px;
+  background-color: rgba(255, 215, 0, 0.4);
+}
+
+.list a {
+  margin-bottom: 12px;
+  display: block;
+  text-decoration: none;
+  color: black;
+}
+
+.messages {
+  font-size: 18px;
+  list-style: none;
+  color: gray;
+  padding: 20px;
+  background-color: rgba(255, 215, 0, 0.2);
+}
+
+.form {
+  display: flex;
+  justify-content: flex-end;
+  border: 2px solid gold;
+  padding: 10px;
+  border-radius: 5px;
+  flex-direction: column;
+  align-items: stretch;
+}
+
+.formInput {
+  width: 97%;
+}
+
+.buttonDialog {
+  display: flex;
+  justify-content: flex-end;
+}

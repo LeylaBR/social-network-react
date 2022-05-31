@@ -1,0 +1,46 @@
+.app-wrapper {
+  margin: 0 auto;
+  display: grid;
+  gap: 10px;
+  width: 1200px;
+  height: 100vh;
+
+  grid-template:
+    [start] "h h" 60px [row2]
+    [row2] "n c " 1fr [end] / 2fr 10fr;
+}
+
+.app-content {
+  grid-area: c;
+  background-color: #fff4f4;
+}
+
+body {
+  background: url(../src/assets/img/wrapper.jpg);
+  backdrop-filter: sepia(1);
+  box-sizing: border-box;
+}
+
+section {
+  min-height: 100vh;
+  padding: 20px;
+  position: relative;
+}
+
+button {
+  padding: 9px 35px;
+  background-color: orangered;
+  font-size: 13px;
+  text-transform: uppercase;
+  font-weight: bold;
+  border-radius: 15px;
+  border: none;
+  width: fit-content;
+  align-self: flex-end;
+  transition: 0.4s;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #ff6e0f;
+}

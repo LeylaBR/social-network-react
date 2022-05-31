@@ -1,0 +1,58 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 15px;
+  font-size: 20px;
+  color: green;
+}
+
+.container span {
+  margin-right: 10px;
+  cursor: pointer;
+  background: #e4fb98;
+  border-radius: 25%;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  transition: 0.4s;
+}
+
+.container span:hover {
+  background: greenyellow;
+}
+
+.selectedActive {
+  font-weight: bold;
+}
+
+.arrowLeft {
+  transform: rotate(-90deg);
+  margin-right: 8px;
+}
+
+.arrowRight {
+  transform: rotate(90deg);
+}
+
+.arrowLeft,
+.arrowRight {
+  cursor: pointer;
+  padding: 2px;
+}
+
+.arrowLeft:hover,
+.arrowRight:hover {
+  background-color: #e4fb98;
+  border-radius: 5px;
+}
+
+.arrowImg {
+  width: 20px;
+  height: 19px;
+}
+
+.disabled {
+  opacity: 0.5;
+  pointer-events: none;
+}
